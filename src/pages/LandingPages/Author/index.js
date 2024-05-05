@@ -34,6 +34,8 @@ import routes from "routes";
 // Images
 import bgImage from "assets/images/city-profile.jpg";
 
+import SignIn from "../../../layouts/pages/authentication/sign-in";
+
 function Author() {
   return (
     <>
@@ -41,8 +43,9 @@ function Author() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "/sign-up",
+          component: <SignIn />,
+          label: "Sign up",
           color: "info",
         }}
         transparent

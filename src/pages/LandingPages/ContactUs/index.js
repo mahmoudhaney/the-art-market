@@ -33,6 +33,8 @@ import footerRoutes from "footer.routes";
 // Image
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
 
+import SignIn from "../../../layouts/pages/authentication/sign-in";
+
 function ContactUs() {
   return (
     <>
@@ -41,8 +43,9 @@ function ContactUs() {
           routes={routes}
           action={{
             type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
+            route: "/sign-up",
+            component: <SignIn />,
+            label: "Sign up",
             color: "info",
           }}
         />

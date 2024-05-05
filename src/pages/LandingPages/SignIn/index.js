@@ -45,6 +45,8 @@ import routes from "routes";
 // Images
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
+import SignIn from "../../../layouts/pages/authentication/sign-in";
+
 function SignInBasic() {
   const [rememberMe, setRememberMe] = useState(false);
 
@@ -56,8 +58,9 @@ function SignInBasic() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "/sign-up",
+          component: <SignIn />,
+          label: "Sign up",
           color: "info",
         }}
         transparent
