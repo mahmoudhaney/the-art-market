@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -42,21 +27,21 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    The
                     <br />
-                    Material Kit
+                    Art Market
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="All the ART components that you need in one place with a new and friendly look."
               />
               <RotatingCardBack
                 image={bgBack}
                 title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                description="You will save a lot of time going from searching to finding all elements and pieces that you need."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "start now",
                 }}
               />
             </RotatingCard>
@@ -66,32 +51,31 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Privacy & Security"
+                  description="We follow all the standards of privacy and data protection. We assure you that your data is safe with us."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="Friendly Design"
+                  description="The ART components are designed to look great together, following the same design pattern."
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="timer"
+                  title="Save Time"
+                  description="Using ART will help you save a lot of time. You don't have to worry about your taste and desired pieces."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="price_change"
+                  title="Save Money"
+                  description="You don't have to worry about spending thousands of dollars buying pieces, you can use ART to save money through Auctions."
                 />
               </Grid>
             </Grid>
